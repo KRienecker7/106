@@ -1,0 +1,17 @@
+h2 {
+    color: blue;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.form {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container{
+    background-image:  url(/imgs/bookcase.jpg);
+    
+}
+
