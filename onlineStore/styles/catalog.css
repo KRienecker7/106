@@ -1,9 +1,18 @@
-
+html { 
+    background-image: url(/imgs/background2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 h2{
     color: blue;
-    background-color: aquamarine;
+    background-image: url(/imgs/background2.jpg);
     text-align: center;
+}
+h2:hover {
+    color: bisque;
 }
 .item{
     background: white;
@@ -23,8 +32,8 @@ h2{
     text-align: left;
 }
 .item img{
-    height: 75%;
-    width: 75%;
+    height: 230px;
+    width: 200px;
 }
 .code {
     display: block;
@@ -45,4 +54,8 @@ h2{
 
 button {
     float: right;
+}
+
+.row {
+    font-size: bold;
 }
